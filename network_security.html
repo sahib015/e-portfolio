@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html lang="en" data-theme="light" data-scroll-status="top" style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"><!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>Network Security  | University of Essex e-Portfolio</title>
+    <meta name="generator" content="Jekyll v3.9.3">
+    <meta property="og:title" content="About">
+    <meta name="author" content="Piotr Sieminski">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <link rel="canonical" href="https://piotr1204essex.github.io/rmpp.html">
+    <meta property="og:url" content="/rmpp.html">
+    <meta property="og:site_name" content="University Portfolio">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="About">
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Sahib Jabbal"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"About","url":"/rmpp.html"}
+    </script>
+  <!-- End Jekyll SEO tag -->
+    <link rel="shortcut icon" href="./assets/data-backup">
+    <link rel="stylesheet" href="./assets/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/index.min.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <script src="./assets/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://sahib015.github.io/e-portfolio/" title="University of Essex e-Portfolio"><link rel="stylesheet" href="./assets/default.min.css">
+    <script src="./assets/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script charset="UTF-8" src="./assets/go.min.js"></script>
+  
+
+
+    <script>
+        // Init highlight js
+        document.addEventListener('DOMContentLoaded', function(event) {
+        var els = document.querySelectorAll('pre code')
+    
+        function addLangData(block) {
+            var outer = block.parentElement.parentElement.parentElement;
+            var lang = block.getAttribute('data-lang');
+            for (var i = 0; i < outer.classList.length; i++) {
+                var cls = outer.classList[i];
+            if (cls.startsWith('language-')) {
+                lang = cls;
+            break;
+            }
+        }
+        if (!lang) {
+          cls = block.getAttribute('class');
+          lang = cls ? cls.replace('hljs ', '') : '';
+        }
+
+        if (lang.startsWith('language-')) {
+          lang = lang.substr(9);
+        }
+
+        block.setAttribute('class', 'hljs ' + lang);
+        block.parentNode.setAttribute('data-lang', lang);
+        }
+    
+        function addBadge(block) {
+         var enabled = ('true' || 'true').toLowerCase();
+            if (enabled == 'true') {
+            var pre = block.parentElement;
+             pre.classList.add('badge');
+            }
+        }
+    
+        function handle(block) {
+            addLangData(block);
+            addBadge(block)
+            hljs.highlightBlock(block);
+        }
+    
+        for (var i = 0; i < els.length; i++) {
+            var el = els[i];
+            handle(el);
+        }
+    });
+    </script>
+    
+    <style>
+      /* code language badge */
+        pre.badge::before {
+            content: attr(data-lang);
+            color: #fff;
+            background-color: #ff4e00;
+            padding: 0 .5em;
+            border-radius: 0 2px;
+            text-transform: uppercase;
+            text-align: center;
+            min-width: 32px;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+        }
+        p{
+            text-align: justify;
+        }
+        li{
+            text-align: justify;
+        }
+        /* fix wrong badge display for firefox browser */
+        code > table pre::before {
+            display: none;
+        }
+    </style>
+
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="./assets/"><script type="text/javascript" charset="UTF-8" src="./assets/m=el_main"></script>
+    </head>
+
+
+    <body data-new-gr-c-s-check-loaded="14.1119.0" data-gr-ext-installed="" style="position: relative; min-height: 100%; top: 0px;">
+        <header class="site-header " role="banner">
+
+            <div class="wrapper">
+                
+                <div class="site-header-inner">
+                    <span class="site-brand">
+                        <a class="site-brand-inner" rel="author" href="index.html">
+                            
+                    
+                            University of Essex e-Portfolio - MSc Cybersecurity
+                        </a>
+    
+                    </span>
+
+                    <nav class="site-nav">
+                        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+                        <label for="nav-trigger">
+                        <span class="menu-icon">
+                            <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+                            </svg>
+                        </span>
+                        </label>
+                        
+                        
+                        <div class="trigger">
+                            
+                            <a class="page-link" href="about.html">ABOUT</a>
+                            <a class="page-link" href="launching_into_cybersecurity.html">L.CY.S</a>
+                            <a class="page-link" href="network_security.html">N.S</a>
+                            <a class="page-link" href="security_and_risk_management.html">S.R.M</a>
+                            <a class="page-link" href="#">S.S.D</a>
+                            <a class="page-link" href="#">S.S.A</a>
+                            <a class="page-link" href="#">T.H.F</a>
+                            <a class="page-link" href="#">P.D.F.CY.L</a>
+                            <a class="page-link" href="#">R.M.M.P</a>
+                        </div>
+                    </nav>
+                </div>
+                <script type="text/javascript" src="./assets/element.js"></script>
+            </div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch">
+                  <div class="toggle"></div>
+                  <div class="names">
+                    <p class="light">Light</p>
+                    <p class="dark">Dark</p>
+                  </div>
+                </label>
+              </div>
+              
+              
+              
+              
+              <script>
+                (function() {
+                  var sw = document.getElementById('theme-switch');
+                  var html = document.getElementsByTagName('html')[0];
+                  var nightModeOption = ('auto' || 'auto').toLowerCase();
+                  var storage = nightModeOption === 'manual'
+                      ? localStorage
+                      : sessionStorage;
+                  var themeData = loadThemeData();
+              
+                  function saveThemeData(data) {
+                    storage.setItem('theme', JSON.stringify(data));
+                  }
+              
+                  function loadThemeData() {
+                    var data = storage.getItem('theme');
+                    try {
+                      data = JSON.parse(data ? data : '');
+                    } catch(e) {
+                      data = { nightShift: undefined, autoToggleAt: 0 };
+                      saveThemeData(data);
+                    }
+                    return data;
+                  }
+              
+                  function handleThemeToggle(nightShift) {
+                    themeData.nightShift = nightShift;
+                    saveThemeData(themeData);
+                    html.dataset.theme = nightShift ? 'dark' : 'light';
+                    setTimeout(function() {
+                      sw.checked = nightShift ? true : false;
+                    }, 50);
+                  }
+              
+                  function autoThemeToggle() {
+                    // Next time point of theme toggle
+                    var now = new Date();
+                    var toggleAt = new Date();
+                    var hours = now.getHours();
+                    var nightShift = hours >= 19 || hours <=7;
+              
+                    if (nightShift) {
+                      if (hours > 7) {
+                        toggleAt.setDate(toggleAt.getDate() + 1);
+                      }
+                      toggleAt.setHours(7);
+                    } else {
+                      toggleAt.setHours(19);
+                    }
+              
+                    toggleAt.setMinutes(0);
+                    toggleAt.setSeconds(0);
+                    toggleAt.setMilliseconds(0)
+              
+                    var delay = toggleAt.getTime() - now.getTime();
+              
+                    // auto toggle theme mode
+                    setTimeout(function() {
+                      handleThemeToggle(!nightShift);
+                    }, delay);
+              
+                    return {
+                      nightShift: nightShift,
+                      toggleAt: toggleAt.getTime()
+                    };
+                  }
+              
+                  // Listen the theme toggle event
+                  sw.addEventListener('change', function(event) {
+                    handleThemeToggle(event.target.checked);
+                  });
+              
+                  if (nightModeOption == 'auto') {
+                    var data = autoThemeToggle();
+              
+                    // Toggle theme by local setting
+                    if (data.toggleAt > themeData.autoToggleAt) {
+                      themeData.autoToggleAt = data.toggleAt;
+                      handleThemeToggle(data.nightShift);
+                    } else {
+                      handleThemeToggle(themeData.nightShift);
+                    }
+                  } else if (nightModeOption == 'manual') {
+                    handleThemeToggle(themeData.nightShift);
+                  } else {
+                    var nightShift = themeData.nightShift;
+                    if (nightShift === undefined) {
+                      nightShift = nightModeOption === 'on';
+                    }
+                    handleThemeToggle(nightShift);
+                  }
+                })();
+              </script>
+        </header>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <div class="framework">
+                    
+                    <section class="main">
+                        <div class="module_title">
+                            <h1>Module 02- Network Security</h1>
+                        </div>
+                       
+                        <div id="learning_outcomes">
+                            <h2 id="learningOutcomes">Learning Outcomes</h2>
+                            <p>The learning outcomes for this module were </p>
+                            <ul>
+                                <li>Explain the origins of a number of common attacks.</li>
+                                <li>Recommend a best practice approach to mitigate attacks.</li>
+                                <li>Discuss a number of modern protection techniques.</li>
+                                <li>Describe the Cyber Kill Chain model.</li>
+                                <li>Apply the model to analyse a well-known APT.</li>
+                                <li>Describe possible mitigations to avoid a similar exploit.</li>
+                                <li>Select and explain which assessment regime to use based on the type and size of the target business.</li>
+                                <li> Utilise open-source scanning and testing tools to perform vulnerability tests and scans.</li>
+                                <li>Analyse scanning results and make recommendations to mitigate vulnerabilities.</li>
+                                <li>Describe a typical breach attack.</li>
+                                <li>Suggest suitable mitigations against typical attacks.</li>
+                                <li>Evaluate and select appropriate tools from the Kali Linux distribution.</li>
+                                <li>Specify a logging configuration for Windows/Linux.</li>
+                                <li>Select and utilise forensic tools.</li>
+                                <li>Analyse the results of log and forensic analysis tool.</li>
+                                <li> Describe how a number of alternative next generation internet solutions will operate.</li>
+                                <li>Explain how these solutions address key challenges.</li>
+                                <li>Debate which potential should (or could) become the next generation internet</li>
+                            </ul>
+                        </div>
+
+                        <div id="Collaborative_Discussion">
+                            <h2 id="collabDiscussion">Collaborative Discussion</h2>
+                            <p>
+                                In this module there were 2 discussion topics that were collaboratively discussed amongst the students
+                            </p>
+                            <div  id="collabDiscussion1">
+                                <h3>Collaborative Discussion 01</h3>
+                                <p>
+                                    <strong>Topic: </strong>Digitalisation: What are the security implications of the digital economy?
+                                </p>
+                            
+                                <div  id="initialPost1">
+                                    <h4>Initial Post</h3>
+                                    <p>
+                                        According to (Banerji, 2019), a fully digital enterprise focuses on the imperfections within an organisation and finding ways to improve customer
+                                        experience and network operations using digital technology.  
+                                    </p>
+                                    <p>
+                                        The digital world brings a lot of concerns in the cyber security area. Some of the concerns include the mindset of IT experts about Cyber security
+                                        which results into a small fraction of IT experts aware of Cyber security. Other concerns include the increase of internal and external threats to the 
+                                        organisation, use of emerging technologies and use of social media platforms. (Spremić and Šimunic, 2018).  
+                                    </p>
+                                    <p>
+                                        The challenges from bricks and mortar SMEs to becoming a digital enterprise is that they would use technology to assist in performing several tasks 
+                                        which reduce the overhead costs within the organisation resulting into unemployment.  Another challenge for SMEs is that they will become dependent on 
+                                        the digital technology and trust it completely without verifying. 
+                                    </p>
+                                  
+
+                                    <p>
+                                        <strong>References</strong>
+                                    </p>
+                                    <p>
+                                        <ol>
+                                            <li>
+                                                Banerji, R., 2022. Digital DNA | T&D Utility of the Future | Accenture. [online] WordPressBlog.
+                                                Available at: https://www.accenture.com/us-en/blogs/accenture-utilities-blog/will-the-tdutility-of-the-future-have-a-digital-dna
+                                                [Accessed 19 June 2022]. 
+                                            </li>
+                                            <li>
+                                                Spremić, M. and Šimunic, A., 2018. [online] Iaeng.org. Available at: http://www.iaeng.org/publication/WCE2018/WCE2018_pp341-346.pdf
+                                                [Accessed 19June 2022]. 
+                                            </li>
+                                        </ol>
+                                    </p>
+
+                                
+                                </div>
+                       
+                            </div>
+                            <div id="collabDiscussion02">
+                                <h3>Collaborative Discussion 2</h3>
+                                <p>
+                                    <strong> Topic: </strong>
+                                    The Pros and cons of logging: The impact of log4j
+                                </p>
+                                <div id="initialPost2">
+                                    <h4>Initial Post</h4>
+
+                                    <p>
+                                        Log4j is a software took to record activities in a wide range of computer systems ((What is Log4j? A cybersecurity expert explains the latest internet vulnerability,
+                                        how bad it is and what's at stake, 2022). This is a vulnerability that was exploited by cyber criminals around November/ December 2021((What is Log4Shell? The Log4j vulnerability
+                                        explained (and what to do about it), 2022).  The advantages of logging events are: 
+                                        <ul>
+                                            <li>
+                                                Can help understand how the system is operating 
+                                            </li>
+                                            <li>
+                                                Provides insights into the health of the system 
+                                            </li>
+                                            <li>
+                                                Optimises troubleshooting by providing access to concurrent users 
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            (The Benefits of Monitoring Event Logs | Mezmo, 2022) 
+                                        </p>
+                                        <p>
+                                            The disadvantages are:
+                                            <ul>
+                                                <li>
+                                                    Logs require to be displayed in a meaningful manner 
+                                                </li>
+                                                <li>
+                                                    Takes a lot of storage space
+                                                </li>
+                                                <li>
+                                                    The logs need to be secure 
+                                                </li>
+                                            </ul>
+                                            (Wistow, 2018) 
+                                        </p>
+                                    </p>
+                                    
+                                    <p>
+                                        <strong>References:</strong>
+                                        <ol>
+                                            <li>
+                                                DMezmo.com. 2022. The Benefits of Monitoring Event Logs | Mezmo. [online] 
+                                                Available at: https://www.mezmo.com/learn-log-management/the-benefits-ofmonitoring-event-logs
+                                                [Accessed 12 July 2022]. 
+                                            </li>
+                                            <li>
+                                                The Conversation. 2022. What is Log4j? A cybersecurity expert explains the latest internet vulnerability, how bad it is and what's at stake. 
+                                                [online] Available at: https://theconversation.com/what-is-log4j-a-cybersecurity-expert-explains-thelatest-internet-vulnerability-how-bad-it-is-and-whats-at-stake-173896
+                                                [Accessed 12 July 2022]. 
+                                            </li>
+                                            <li>
+                                                Dynatrace news. 2022. What is Log4Shell? The Log4j vulnerability explained (and what to do about it). 
+                                                [online] Available at: https://www.dynatrace.com/news/blog/what-islog4shell/?utm_source=google&utm_medium=cpc&utm_term=log4j%20vulnerability%20explained&utm_campaign=uk-applicationsecurity&utm_content=none&gclid=CjwKCAjwiuuRBhBvEiwAFXKaNJd3hLzYlujXuVbTIP63_
+                                                IioBFvzAYOePxfft2D6ded7EXfaTu4j4BoCrHAQAvD_BwE&gclsrc=aw.ds
+                                                [Accessed 12 July 2022]. 
+                                            </li>
+                                            <li>
+                                                Wistow, S., 2018. 3 Common logging challenges. [online] Fastly.com. Available at: https://www.fastly.com/blog/3-common-logging-challenges
+                                                [Accessed 12 July 2022]. 
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </div>
+                   
+
+                            </div>
+
+                        </div>
+                        <div id="individualReflection">
+                            <h2>Individual Reflection</h2>
+                            <p>
+                                In this module of my master’s degree, I have learnt that network security is important in an organisation or a website. Over the six weeks of the module, I learnt some important 
+                                aspects of network security such as the cyber kill chain model. Understanding the importance if the model made me understand the process of how a potential cyber-attack is executed.
+                                With this in mind, it ensured me that in order to protect a network, it is vital to understand the process of how a cyber criminal prepares the attack. Using this technique, to be 
+                                able to mitigate the attack and reducing the risks, one should think of how the cyber-criminal plans and be vigilant with possible vulnerabilities the network possesses, therefore its
+                                vital to perform regular penetration tests on the network.  
+                            </p>
+                            <p>
+                                During the module covered, there were several activities that I was required to participate in. Some of the activities included participation in seminars and module activities that included 
+                                scanning of the website chosen.  During the vulnerability assessment, I realised that I was unable to load the website I had selected. After several attempts on different web browsers and 
+                                network, I was unable to load the website. As this was going to affect my vulnerability assessment and future activities, I decided that it would be better for me to change the website 
+                                choice which would allow me to use the website for the rest of the module and contacted the lecturer of the module. 
+                            </p>
+                            <p>
+                                While I was attempting the scanning activity of my chosen website during unit 3, I had a few challenges in extracting the information required. As the weblink available on the activity brief
+                                was to a tutorial on how to use the traceroute command, I was only able to get some of the information. As traceroute only provides the number of total hops it takes to reach its final 
+                                destination with the time it takes at each hop, I was unable to extract information from the output such as the nameservers, mx records. While going through the recommended reading material 
+                                form the module resources, I realised that the WHOIS command will be able to provide the relevant information required. 
+                            </p>
+                            <p>
+                                The second seminar of the module was regarding the top 15 data breaches within the 21st century. As part of the seminar, we were to each discuss one of the 15 data breaches and present during
+                                the seminar. I was able to present my findings on one of the data breaches. I had chosen to present about Adobe’s data breach. The presentation went well however due to some technical 
+                                challenges during the seminar once I presented, I had lost connectivity and reconnected. When I reconnected again, I missed the comments. As I had missed the comments and feedback, 
+                                I later went back to the recording of the seminar, and I received positive feedback from the lecturer, and I was proud from the feedback. By presenting this in the seminar, I was able 
+                                to share my thoughts and contribute to the seminar. 
+                            </p>
+                            <p>
+                                As part of the module activities during the course was to be able to scan the chosen website and extract possible vulnerabilities, open ports, etc. As this activity required scanning of the website, 
+                                there are many tools and options on how to scan the website. At first, with the number of options available such as online tools and tools available via the Kali Linux operating system, I had quite
+                                a few options to choose from. Once I analysed the tools to scan the website, I chose to opt for installing Kali Linux on a virtual machine to perform the scanning of the website. I chose Kali Linux as 
+                                the operating system is widely used for performing scans on networks or websites. The scanning tools available are preferred for such an activity. I had a few challenges while scanning the network for 
+                                open ports and vulnerabilities on the second attempt of the website. In order for me to overcome this difficulty I researched further on the vulnerability name in order for me to get further details on 
+                                the vulnerability risks as I was unable to scan the domain again during the vulnerability assessment to gather the details. 
+                            </p>
+                            <p>
+                                The collaboration discussion topics were interesting however there was not much discussion and contribution from other colleagues in the module. I did however contribute positively towards the discussions
+                                and shared my thoughts on the respective topics. There was no motivation to include my summary of the discussion to the collaboration discussions. I felt that as this was not compulsory to contribute and 
+                                no marks were being awarded towards the final grade of the module, other students did not take it seriously. 
+                            </p>
+                            <p>
+                                Overall, this module was a great learning experience for me as I did contribute to all possible activities assigned ensuring the best learning outcome is achieved.  I particularly enjoyed the practical aspect
+                                of trying to scan the website as this gave me the opportunity to experience scanning a network in order to detect vulnerabilities and understand what it would be required to scan a network of an organisation. 
+                                It would have been great for me to understand how to mitigate the vulnerabilities and reduce the number of open ports reducing the vulnerability risk. 
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="sidebar" style="margin-left: 15px;">
+                        <!-- Get sidebar items -->
+                        <style type="text/css" media="screen">
+                            .post-menu ul {
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            }
+                        </style>
+
+                        <div class="post-menu">
+                            <div class="post-menu-title">
+                                Table Of Content
+                            </div>
+                            <div class="post-menu-content">
+                                 <ul>
+                                    <li class="h-h2"><a href="#learningOutcomes">Learning Outcomes</a></li>
+                                    <li class="h-h2"><a href="#collabDiscussion">Collaborative Discussion</a></li>
+                                    <li class="h-h3"><a href="#collabDiscussion1">Collaborative Discussion 01</a></li>
+                                    <li class="h-h4"><a href="#initialPost1">Initial Post</a></li>
+                                    <li class="h-h3"><a href="#collabDiscussion2">Collaborative Discussion 02</a></li>
+                                    <li class="h-h4"><a href="#initialPost2">Initial Post</a></li>
+                                    <li class="h-h2"><a href="#individualReflection">Individual Reflection</a></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                         </div>
+                 
+                    </section>
+            
+            </div>
+            
+        </main>
+        <footer class="site-footer h-card">
+            <data class="u-url" href="/"></data>
+            <div class="wrapper">
+                <div class="site-footer-inner">
+                    <div>
+                        Unpublished Work <span class="copyright">©</span> 2022-2024 Sahib Jabbal
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+    
+          
+                
+                    
+    
