@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+
+<html lang="en" data-theme="light" data-scroll-status="top" style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"><!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>Security and Risk Management | University of Essex e-Portfolio</title>
+    <meta name="generator" content="Jekyll v3.9.3">
+    <meta property="og:title" content="About">
+    <meta name="author" content="Piotr Sieminski">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <link rel="canonical" href="https://piotr1204essex.github.io/rmpp.html">
+    <meta property="og:url" content="/rmpp.html">
+    <meta property="og:site_name" content="University Portfolio">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="About">
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Sahib Jabbal"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"About","url":"/rmpp.html"}
+    </script>
+  <!-- End Jekyll SEO tag -->
+    <link rel="shortcut icon" href="./assets/data-backup">
+    <link rel="stylesheet" href="./assets/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/index.min.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <script src="./assets/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://sahib015.github.io/e-portfolio/" title="University of Essex e-Portfolio"><link rel="stylesheet" href="./assets/default.min.css">
+    <script src="./assets/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script charset="UTF-8" src="./assets/go.min.js"></script>
+  
+
+
+    <script>
+        // Init highlight js
+        document.addEventListener('DOMContentLoaded', function(event) {
+        var els = document.querySelectorAll('pre code')
+    
+        function addLangData(block) {
+            var outer = block.parentElement.parentElement.parentElement;
+            var lang = block.getAttribute('data-lang');
+            for (var i = 0; i < outer.classList.length; i++) {
+                var cls = outer.classList[i];
+            if (cls.startsWith('language-')) {
+                lang = cls;
+            break;
+            }
+        }
+        if (!lang) {
+          cls = block.getAttribute('class');
+          lang = cls ? cls.replace('hljs ', '') : '';
+        }
+
+        if (lang.startsWith('language-')) {
+          lang = lang.substr(9);
+        }
+
+        block.setAttribute('class', 'hljs ' + lang);
+        block.parentNode.setAttribute('data-lang', lang);
+        }
+    
+        function addBadge(block) {
+         var enabled = ('true' || 'true').toLowerCase();
+            if (enabled == 'true') {
+            var pre = block.parentElement;
+             pre.classList.add('badge');
+            }
+        }
+    
+        function handle(block) {
+            addLangData(block);
+            addBadge(block)
+            hljs.highlightBlock(block);
+        }
+    
+        for (var i = 0; i < els.length; i++) {
+            var el = els[i];
+            handle(el);
+        }
+    });
+    </script>
+    
+    <style>
+      /* code language badge */
+        pre.badge::before {
+            content: attr(data-lang);
+            color: #fff;
+            background-color: #ff4e00;
+            padding: 0 .5em;
+            border-radius: 0 2px;
+            text-transform: uppercase;
+            text-align: center;
+            min-width: 32px;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+        }
+        p{
+            text-align: justify;
+        }
+        li{
+            text-align: justify;
+        }
+        /* fix wrong badge display for firefox browser */
+        code > table pre::before {
+            display: none;
+        }
+    </style>
+
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="./assets/"><script type="text/javascript" charset="UTF-8" src="./assets/m=el_main"></script>
+    </head>
+
+
+    <body data-new-gr-c-s-check-loaded="14.1119.0" data-gr-ext-installed="" style="position: relative; min-height: 100%; top: 0px;">
+        <header class="site-header " role="banner">
+
+            <div class="wrapper">
+                <div class="site-header-inner">
+                    <span class="site-brand">
+                        <a class="site-brand-inner" rel="author" href="index.html">
+                            
+                    
+                            University of Essex e-Portfolio - MSc Cybersecurity
+                        </a>
+    
+                    </span>
+
+                    <nav class="site-nav">
+                        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+                        <label for="nav-trigger">
+                        <span class="menu-icon">
+                            <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+                            </svg>
+                        </span>
+                        </label>
+                        
+                        
+                        <div class="trigger">
+                            
+                            <a class="page-link" href="about.html">ABOUT</a>
+                            <a class="page-link" href="launching_into_cybersecurity.html">L.CY.S</a>
+                            <a class="page-link" href="network_security.html">N.S</a>
+                            <a class="page-link" href="security_and_risk_management.html">S.R.M</a>
+                            <a class="page-link" href="#">S.S.D</a>
+                            <a class="page-link" href="#">S.S.A</a>
+                            <a class="page-link" href="#">T.H.F</a>
+                            <a class="page-link" href="#">P.D.F.CY.L</a>
+                            <a class="page-link" href="research_methods_and_professional_practice.html">R.M.P.P</a>
+                        </div>
+                    </nav>
+                </div>
+                <script type="text/javascript" src="./assets/element.js"></script>
+            </div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch">
+                  <div class="toggle"></div>
+                  <div class="names">
+                    <p class="light">Light</p>
+                    <p class="dark">Dark</p>
+                  </div>
+                </label>
+              </div>
+              
+              
+              
+              
+              <script>
+                (function() {
+                  var sw = document.getElementById('theme-switch');
+                  var html = document.getElementsByTagName('html')[0];
+                  var nightModeOption = ('auto' || 'auto').toLowerCase();
+                  var storage = nightModeOption === 'manual'
+                      ? localStorage
+                      : sessionStorage;
+                  var themeData = loadThemeData();
+              
+                  function saveThemeData(data) {
+                    storage.setItem('theme', JSON.stringify(data));
+                  }
+              
+                  function loadThemeData() {
+                    var data = storage.getItem('theme');
+                    try {
+                      data = JSON.parse(data ? data : '');
+                    } catch(e) {
+                      data = { nightShift: undefined, autoToggleAt: 0 };
+                      saveThemeData(data);
+                    }
+                    return data;
+                  }
+              
+                  function handleThemeToggle(nightShift) {
+                    themeData.nightShift = nightShift;
+                    saveThemeData(themeData);
+                    html.dataset.theme = nightShift ? 'dark' : 'light';
+                    setTimeout(function() {
+                      sw.checked = nightShift ? true : false;
+                    }, 50);
+                  }
+              
+                  function autoThemeToggle() {
+                    // Next time point of theme toggle
+                    var now = new Date();
+                    var toggleAt = new Date();
+                    var hours = now.getHours();
+                    var nightShift = hours >= 19 || hours <=7;
+              
+                    if (nightShift) {
+                      if (hours > 7) {
+                        toggleAt.setDate(toggleAt.getDate() + 1);
+                      }
+                      toggleAt.setHours(7);
+                    } else {
+                      toggleAt.setHours(19);
+                    }
+              
+                    toggleAt.setMinutes(0);
+                    toggleAt.setSeconds(0);
+                    toggleAt.setMilliseconds(0)
+              
+                    var delay = toggleAt.getTime() - now.getTime();
+              
+                    // auto toggle theme mode
+                    setTimeout(function() {
+                      handleThemeToggle(!nightShift);
+                    }, delay);
+              
+                    return {
+                      nightShift: nightShift,
+                      toggleAt: toggleAt.getTime()
+                    };
+                  }
+              
+                  // Listen the theme toggle event
+                  sw.addEventListener('change', function(event) {
+                    handleThemeToggle(event.target.checked);
+                  });
+              
+                  if (nightModeOption == 'auto') {
+                    var data = autoThemeToggle();
+              
+                    // Toggle theme by local setting
+                    if (data.toggleAt > themeData.autoToggleAt) {
+                      themeData.autoToggleAt = data.toggleAt;
+                      handleThemeToggle(data.nightShift);
+                    } else {
+                      handleThemeToggle(themeData.nightShift);
+                    }
+                  } else if (nightModeOption == 'manual') {
+                    handleThemeToggle(themeData.nightShift);
+                  } else {
+                    var nightShift = themeData.nightShift;
+                    if (nightShift === undefined) {
+                      nightShift = nightModeOption === 'on';
+                    }
+                    handleThemeToggle(nightShift);
+                  }
+                })();
+              </script>
+        </header>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <div class="framework">
+                    
+                    <section class="main">
+                        <div class="module_title">
+                            <h1>Module 03- Security and Risk Management</h1>
+                        </div>
+                       
+                        <div>
+                            <h2 id="learning-outcomes">Learning Outcomes</h2>
+                            <p>The learning outcomes for this module were </p>
+                            <ol>
+                                <li>Review a number of common definitions of Security and Risk Management.</li>
+                                <li>Review some common Security and Risk Management Concepts.</li>
+                                <li>Discuss the Risk Management Process.</li>
+                                <li>Review the Risk Management Process (RMP).</li>
+                                <li>Review the effects of different assessment types (Qualitative vs. Quantitative).</li>
+                                <li>Discuss potential changes to the RMP based on changes in user participation.</li>
+                                <li>Discuss the difference between threats and vulnerabilities.</li>
+                                <li>Review a number of threat modelling techniques.</li>
+                                <li>Discuss a number of guides and cookbooks to help with threat modelling.</li>
+                                <li>Discuss various tools and resources that can be used in threat modelling and management.</li>
+                                <li>Evaluate the use of publicly available tools to assist with Threat Modelling.</li>
+                                <li>Create threat models based on suggested scenarios.</li>
+                                <li>Explore industry specific security standards and directives.</li>
+                                <li>Discuss how standards affect security and risk assessments.</li>
+                                <li>Review a number of common industry and enterprise standards.</li>
+                                <li>Review and discuss a number of GDPR related case studies.</li>
+                                <li>Review standards web sites.</li>
+                                <li>Discuss a number of case studies and standards.</li>
+                                <li>Discuss what is meant by quantitative risk modelling (QRM).</li>
+                                <li> Review different approaches to QRM including Monte Carlo Simulations and Bayes theoretical models.</li>
+                                <li>Discuss the principles and antipatterns for each approach.</li>
+                                <li>Discuss how QRM can be applied to real world problems.</li>
+                                <li>Review case studies of how QRM techniques are used.</li>
+                                <li>Provide a critical evaluation of some of the techniques available.</li>
+                                <li>Review how and why to create business continuity (BC) and disaster recovery (DR) plans.</li>
+                                <li>Discuss the main determining factors in BC/DR plans – including Business Impact Assessments (BIA), Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).</li>
+                                <li>Discuss emerging trends in Information Risk Management.</li>
+                                <li>Discuss the impact of RPO and RTO values on DR solutions.</li>
+                                <li>Examine some typical system solutions to meet the various standby requirements.</li>
+                                <li>Describe the limitations of the proposed solutions.</li>
+                                <li>Review a number of current and emerging trends in SRM.</li>
+                                <li>Discuss the pros and cons of each trend.</li>
+                                <li>Evaluate each trend in respect of its influence on future directions.</li>
+                                <li>Debate the question, split into two opposing ‘teams’.</li>
+                                <li>Complete the wiki entries for the future trends reading.</li>
+                                <li>Vote and decide the most influential trend.</li>
+                            </ol>
+                        </div>
+
+                        <div id="Collaborative_Discussion">
+                            <h2 id="collab-discussions">Collaborative Discussion</h2>
+                            <p>
+                                In this module there were 2 discussion topics that were collaboratively discussed amongst the students
+                            </p>
+                            <div  id="collabDiscussion1">
+                                <h3 id="collab-discussion-1">Collaborative Discussion 01</h3>
+                                <p>
+                                    <strong>Topic: </strong>Based on your reading of the <a href="https://www.researchgate.net/publication/333063956_Risks_of_digitalisation_of_business_models">case study(Kovaitė and Stankevičienė, 2019)</a> answer the following questions in the discussion forum:
+                                    <ol>
+                                        <li>What do the authors mean by the term ‘Industry 4.0’ - give two examples.</li>
+                                        <li>Give two real-world examples of risks that fit into the authors categories.</li>
+                                        <li>Find another journal article that either supports or contradicts the points made in the cited study.</li>
+
+                                    </ol>
+                            
+                                <div  id="initialPost1">
+                                    <h4 id="initial-post-1">Initial Post</h3>
+                                    <p>
+                                        Accoridng to (Kovaitė and Stankevičienė, 2019), industry 4.0 is referred as the 4th industrial revolution that moves from there and encompasses a range of technological drivers
+                                        as Internet of Things (IoT), big data, artificial intelligence, cloud computing that explores the decentralisation of communication between humans and machines. 
+                                    </p>
+                                    <p>
+                                        An example of a real world of industry 4.0 is the Semi-Automated-Mason referred as SAM. This is a robot that builds walls, and it could potentially take over the construction 
+                                        industry. The risk it provides is minimal as this increases the productivity and efficiency while reducing labour costs. However, it requires a human to configure the settings,
+                                        this could be a risk defined as human error if the robot is misconfigured. (A few real-world examples of Industry 4.0 that are being used everyday!, 2022). 
+                                    </p>
+                                    <p>
+                                        Another example is the production of cars. Car manufacturing factories such as Audi use large volumes of data that facilitate data driven, highly flexible and efficient manufacturing.
+                                        As mentioned in the previous example of SAM, similarly the risks of a smart factory it reduces the labour costs resulting to unemployment. In addition to human factor of misconfiguring
+                                        the machine prior of use, this could potentially cause a delay within the assembly process. Along with human factor in consideration, another risk is the type of data collected to ensure
+                                        machines/robots are moving correctly. (A few real-world examples of Industry 4.0 that are being used everyday!, 2022). 
+     
+                                    </p>
+                                    <p>
+                                        According to (What is Industry 4.0 and how does it work? | IBM, 2022), the article agrees with the article of (Kovaitė and Stankevičienė, 2019), that industry 4.0 is revolutionising 
+                                        IoT in manufacturing companies.  
+                                    </p>
+                                    <p>
+                                        <strong>References</strong>
+                                    </p>
+                                    <p>
+                                        <ol>
+                                            <li>
+                                                REWO. 2022. A few real-world examples of Industry 4.0 that are being used everyday!. [online] Available at: https://www.rewo.io/real-world-examples-of-industry-4-0/
+                                                [Accessed 13 August 2022].
+                                            </li>
+                                            <li>
+                                                Kovaitė, K. and Stankevičienė, J., 2019. Risks of digitalisation of business models. Proceedings of 6th International Scientific Conference Contemporary 
+                                                Issues in Business, Management and Economics Engineering ‘2019.
+                                            </li>
+                                            <li>
+                                                Ibm.com. 2022. What is Industry 4.0 and how does it work? | IBM. [online] Available at: https://www.ibm.com/topics/industry-40#:~:text=Industry%204.0%20is%20revolutionizing%20the,facilities%20and%20throughout%20their
+                                                %20operations. [Accessed 13 August 2022]. 
+                                            </li>
+                                        </ol>
+                                    </p>
+
+                                
+                                </div>
+                                <div id="peerResponsesRecieved1">
+                                    <h4 id="peer-response-rcvd1">Peer Responses Recieved</h4>
+                                    <p>The following responses I recieved from my colleagues on my <a href="#initialPost1">initial post</a></p>
+                                    <table id="tbl_peerResponsesRecieved1">
+                                        <tr>
+                                            <td>
+                                                <label><strong>From:</strong> Demian </label>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Good day Sahib 
+                                                </p>
+                                                <p>
+                                                    I loved your article. I enjoyed the references to both the SAM Robotics and the IBM site. In your opinion, what vulnerabilities does the 4th Industrial Revolution have 
+                                                    in regards to Risk or Security.
+                                                </p>
+                                                <p>
+                                                    Kind Regards
+                                                </p>
+                                                <p>
+                                                    Demian 
+                                                </p>
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table id="tbl_peerResponsesRecieved2">
+                                        <tr>
+                                            <td>
+                                                <label><strong>From:</strong> Jonathon  </label>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hello Sahib 
+                                                </p>
+                                                <p>
+                                                    Thank you for your submission on risk assessment in Industry 4.0 driven business models which I found very interesting. However, I do not agree that risks associated with Industry 4.0 systems are minimal. 
+                                                    It is undeniably acceptable that every innovation attracts its own risks, which is equally applicable to Industry 4.0. The risks associated Industry 4.0 driven business models are enormous, 
+                                                    complex and could be classified into 5 main groups. These are technical, competence, behavioural, data security and financial risks (Kovaitė & Stankevičienė, 2019). Behavioural risks 
+                                                    can be further classified into 2, namely, risks related to staff competence (internal) and risks related to customers’ and partners’ attitude. Furthermore, it is worth noting that as the automation of 
+                                                    technology systems increases, there is a need for new approaches to risk identification. This is more so that simply extending existing methodologies to Industry 4.0 systems could result in blindness to new risks. Hence, Nurse, Creese & Roure (2017) made the case for new methodologies to identify risks in Industry 4.0 powered business models. The position tallied with that of Kovaitė and Stankevičienė (2019) who recommended the Risk Assessment of Digitalisation of Business (RADi) model for risk assessment in Industry 4.0 driven businesses. 
+                                                </p>
+                                                <p>
+                                                    <strong>References:</strong>
+                                                    <ol>
+                                                        <li>
+                                                            Kovaitė , K., & Stankevičienė, J. (2019). Risks of digitalisation of business models. 
+                                                            Available from https://www.researchgate.net/publication/333063956_Risks_of_digitalisation_of_business _models 
+                                                            [Assessed on 12 August 2022]. 
+                                                        </li>
+                                                        <li>
+                                                            Nurse, J., Creese, S., & Roure, D. (2017). Security risk assessment in Internet of Things systems. 
+                                                            Available from https://kar.kent.ac.uk/67476/ 
+                                                            [Assessed on 12 August 2022]. 
+                                                        </li>
+                                                    </ol>
+                                                </p>
+                                                
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div id="peerResponsesGiven1">
+                                    <h4 id="peer-response-given-1">Peer Responses Given</h3>
+                                    <p>
+                                        The following peer responses I gave to my colleagues responding to their initial posts.
+                                    </p>
+                                    <table id="tbl_peerResponseGiven1">
+                                        <tr>
+                                            <td>
+                                                <label><strong>To:</strong> Kwok  </label>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hi Kwok, 
+                                                </p>
+                                                <p>
+                                                    Thank you for your insightful post on automation of serving guests their meal via robots and Amazon’s delivery robot, Amazon Scout.  
+                                                </p>
+                                                <p>
+                                                    I agree with you regarding the robot waiter risks you have identified, however, this is in such cases that the control management system 
+                                                    is down resulting to manual waiter service. In addition to the risk identified, while the control management system is up and running, there 
+                                                    is the potential risk of privacy. As the sensors and camera feed data into an automated system, it may record sensitive data of employees and
+                                                    customers. In order to ensure the restaurant is compliant with the data privacy act of its country, they should consult with an attorney who specialises 
+                                                    in data privacy. (What risks restaurants should consider before deploying AI, robotics, and automation, 2022).  
+                                                </p>
+                                                <p>
+                                                    <strong>Reference:</strong>
+                                                    <ol>
+                                                        <li>
+                                                            Restaurant Dive. 2022. What risks restaurants shoold consider before deploying AI, robotics and automation. [online]
+                                                            Available at: https://www.restaurantdive.com/news/what-risks-restaurants-shoold-considerbefore-deploying-ai-robotics-and-au/539840/
+                                                            [Accessed 19 August 2022]. 
+                                                        </li>
+                                                       
+                                                    </ol>
+                                                </p>
+                                                
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table id="tbl_peerResponseGiven2">
+                                        <tr>
+                                            <td>
+                                                <label><strong>To:</strong> Deepak  </label>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hi Deepak, 
+                                                </p>
+                                               
+                                                <p>
+                                                    Thank you for your interesting post on digitalisation. As you have rightfolly mentioned about Alexa/ Echo app and similar devices such as Siri, and Google Home to enable 
+                                                    individuals to control their electronic devices using the smart apps connected to devices such as Apple hub, Google Home, and Echo, what are the potential security risks 
+                                                    that can this bring to the individual using these devices as part of the industry 4.0? 
+                                                </p>
+                                               
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div id="summaryPost1">
+                                    <h4 id="summary-post-1">Summary Post</h4>
+                                    <p>
+                                        In my <a href="#initialPost1">initial post</a>, I mentioned about what industry 4.0 is and examples of real life scenarios of how industry 4.0 can be used. 
+                                    </p>
+                                    <p>
+                                        I would like to thank Daeman and Jonathon for their contribution to the post. I agree with Jonathon that industry 4.0 innovations do bring its own risks. As (Kovaitė and Stankevičienė, 2019)
+                                        mention in their article, there are the 5 types of risks classified as Technical, Behavioural, Competence, Data Security and Financial.
+                                    </p>
+                                    <p>
+                                        As mentioned in my <a href="#initialPost1">initial post</a>, an example provided is the Semi-Automated-Manson (SAM), a vulnerability that is in danger of being tampered with is its data. The collected data is stored in a SQL database
+                                        hosted in a database server.  (Robotic Masonry Is Helping to Fill the Skilled Labor Gap, 2022).  The data can be tampered with by using SQL injection. 
+                                    </p>
+                                    <p>
+                                        In conclusion, from reading other colleagues posts, industry 4.0 is digitalising the technology world and incorporating devices with technology making our lives simpler and efficiently reducing the time spent on repeated 
+                                        tasks with the assistance of Artificial Intelligence, Cloud computing and big data. 
+                                    </p>
+                                    <p>
+                                        <strong>References:</strong>
+                                        <ol>
+                                            <li>
+                                                Kovaitė , K., & Stankevičienė, J. (2019). Risks of digitalisation of business models. 
+                                                Available from https://www.researchgate.net/publication/333063956_Risks_of_digitalisation_of_business _models 
+                                                [Assessed on 12 August 2022]. 
+                                            </li>
+                                            <li>
+                                                Constructionexec.com. 2022. Robotic Masonry Is Helping to Fill the Skilled Labor Gap. [online] 
+                                                Available at: https://www.constructionexec.com/article/robotic-masonry
+                                                [Accessed 26 August 2022]. 
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="collabDiscussion02">
+                                <h3 id="collab-discussion-2">Collaborative Discussion 2</h3>
+                                <p>
+                                    <strong> Topic: </strong>
+                                    Read <a href="https://ieeexplore-ieee-org.uniessexlib.idm.oclc.org/document/9382369">Spring et al (2021) </a>and then answer the following questions:
+									<ol>
+									    <li>What characteristics of CVSS do the authors criticise? Do you agree with the critique? Justify your answer with academic references.</li>
+										<li>The authors also discuss a number of alternatives to CVSS. Select one of these alternatives and post an argument for why it should replace CVSS.</li>
+                                    </ol>
+                                </p>
+                                <div id="initialPost2">
+                                    <h4 id="initial-post-2">Initial Post</h4>
+
+                                    <p>
+                                        The Common Vulnerability Scoring System (CVSS) is a framework that is used for the severity of security vulnerabilities in a software. This provides organisations 
+                                        to provide a score to its IT vulnerabilities across a wide range of software’s. (What is the CVSS (Common Vulnerability Scoring System)?, 2022).  
+                                    </p>
+                                    <p>
+                                        (Spring et al., 2021), criticise characteristics of CVSS include robustness, unreliability and most importantly the CVSS formula does not have emphasis on the 
+                                        scoring severity of the vulnerability.  
+                                    </p>
+
+                                    <p>
+                                        According to (Spring et al., 2021),CVSS is designed to identify the technical severities of the vulnerabilities and not on the risk of the vulnerability as people 
+                                        assume to know about the CVSS scoring.  
+                                    </p>
+                                    <p>
+                                        (Spring et al., 2021), suggests that Stakeholder-Specific Vulnerability Categorisation is an alternative to CVSS.  
+                                    </p>
+                                    <p>
+                                        SSVC have 3 main goals, these include (Manion, 2020); 
+                                        <ol>
+                                            <li>
+                                                Better decision support, context, risk-orientation  
+                                            </li>
+                                            <li>
+                                                Transparent, adjustable, adequate formalism  
+                                            </li>
+                                            <li>
+                                                Automation, low evaluation cost per vulnerability 
+                                            </li>
+                                        </ol>
+                                        With the focus of supporting decisions and are risk oriented, transparent, SSVC should replace CVSS.  
+                                    </p>
+                                    <p>
+                                        <strong>References:</strong>
+                                        <ol>
+                                            <li>
+                                                Manion, A., 2020. SSVC: Stakeholder-Specific Vulnerability Categorization. [online] First.org. 
+                                                Available at: <https://www.first.org/resources/papers/durham2020/SSVC_PSIRT_TC_2020.pdf/>
+                                                [Accessed 23 September 2022]. 
+                                            </li>
+                                            <li>
+                                                Spring, J., Hatleback, E., Householder, A., Manion, A. and Shick, D., 2021. Time to Change the CVSS?. [online]
+                                                Ieeexplore-ieee-org.uniessexlib.idm.oclc.org. Available at: <https://ieeexplore-ieee-org.uniessexlib.idm.oclc.org/document/9382369/> 
+                                                [Accessed 21 September 2022]. 
+                                            </li>
+                                            <li>
+                                                SearchSecurity. 2022. What is the CVSS (Common Vulnerability Scoring System)?. [online] Available at: 
+                                                <https://www.techtarget.com/searchsecurity/definition/CVSSCommon-Vulnerability-Scoring-System/>
+                                                [Accessed 19 September 2022]. 
+                                            </li>
+                                            
+                                        </ol>
+                                    </p>
+                                </div>
+                   
+                                <div id="peerResponsesRecieved2">
+                                    <h4 id="peer-response-rcvd2">Peer Responses Recieved</h4>
+                                    <p>The following responses I recieved from my colleagues on my <a href="#initialPost2">initial post</a></p>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <label><strong>From: </strong></label> Doug
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hi Sahib - a good summary but the core question here is: is CVSS a qualitative or quantitative measure? Do NOT rely on single sources OR throwaway definitions on 
+                                                    blog posts - should we believe Spring et al or not? What is the evidence? Based on what you have read - what do YOU believe?
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div id="peerResponsesGiven2">
+                                    <h4 id="peer-response-given2">Peer Responses Given</h4>
+                                    <p>
+                                        The following peer responses I gave to my colleagues responding to their initial posts.
+                                    </p>
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <label><strong>To: </strong></label> Doug
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hi Doug, 
+                                                </p>
+                                                <p>
+                                                    Thanks for your sharing your thoughts. 
+                                                </p>
+                                                <p>
+                                                    The CVSS framework is grouped into 3 categories, base, temporal and environmental (IBM Documentation, 2022). The scoring of the 3 groups 
+                                                    identified are relied on the scoring of the characteristics of the vulnerabilities. According to (IBM Documentation, 2022), there are assumptions 
+                                                    and guidelines that are made in order to provide a CVSS score.  
+                                                </p>
+                                                <p>
+                                                    As (Spring et al., 2021), mentions in their article, CVSS is designed to identify technical severities and not the risk of the vulnerabilities, however, 
+                                                    according to (Tatar, 2022), assigning a range of values to a range of scores may easily demonstrate the severity of the vulnerability or threat.  
+                                                </p>
+                                                <p>
+                                                    As there is contradiction on the CVSS scoring system, in my opinion, CVSS is a qualitative as this is subjective to the individual scoring the vulnerabilities of the threat.  
+                                                </p>
+                                                <p>
+                                                    <strong>References:</strong>
+                                                    <ol>
+                                                        <li>Ibm.com. 2022. IBM Documentation. [online] Available at: <https://www.ibm.com/docs/en/qradar-on-cloud?topic=vulnerabilities-commonvulnerability-scoring-system-cvss> [Accessed 27 September 2022]. </li>
+                                                        <li>Tatar, S., 2022. CVSS: Measuring the Severity of an IT Security Vulnerability | Arctic Wolf. [online] Arctic Wolf. Available at: <https://arcticwolf.com/resources/blog/cvssmeasuring-severity-of-an-it-security-vulnerability/> [Accessed 28 September 2022]. </li>
+                                                        <li>Spring, J., Hatleback, E., Householder, A., Manion, A. and Shick, D., 2021. Time to Change the CVSS?. [online] Ieeexplore-ieee-org.uniessexlib.idm.oclc.org. Available at: <https://ieeexplore-ieee-org.uniessexlib.idm.oclc.org/document/9382369/> [Accessed 21 September 2022]. </li>
+                                                    </ol>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <label><strong>To: </strong></label> Patricia
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hi Patricia, 
+                                                </p>
+                                                <p>
+                                                    This is a very insightful post.  
+                                                </p>
+                                                <p>
+                                                    I would agree with you that CVSS is a qualitative risk assessment based on the subjective of the individual providing the scores of the assessment which impact the final score. In addition, according to Spring et al. (2021), the calculation formula has not been justified properly which affects the CIA triad of the system.
+                                                     This, therefore, provides insufficient evidence that the formula is robust. 
+                                                </p>
+                                               
+                                                <p>
+                                                    <strong>References:</strong>
+                                                    <ol>
+                                                        <li>Spring, J., Hatleback, E., Householder, A., Manion, A. and Shick, D., 2021. Time to Change the CVSS?. [online] Ieeexplore-ieee-org.uniessexlib.idm.oclc.org. Available at: <https://ieeexplore-ieee-org.uniessexlib.idm.oclc.org/document/9382369/> [Accessed 21 September 2022]. </li>
+                                                    </ol>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <label><strong>To: </strong></label> Yash
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Hi Yash, 
+                                                </p>
+                                                <p>
+                                                    Thanks for sharing your experience on the CVSS scores you had during your penetration testing.  
+                                                </p>
+                                                <p>
+                                                    Would you think that CVSS scores are limited to the severity of the technicality of the vulnerabilities instead of the risk of the vulnerability due to the lack of justification 
+                                                    of the formula and the scoring being subjective? 
+                                                </p>
+                                               
+                                               
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                                <div id="summaryPost2">
+                                    <h4 id="summary-post-2">Summary Post</h4>
+                                    <p>
+                                        In my <a href="#initialPost2">initial post</a>, I outlined the characteristics which were outlined by the authors Spring et al. 2021. 
+                                    </p>
+                                    <p>
+                                        From the initial post, I received informative feedback from Doug. Following my response, CVSS scoring is a subjective analysis based on the individual skill set of the scorer. Therefore, it is a qualitative
+                                        risk method that is based on a certain criterion (What is CVE and CVSS | Vulnerability Scoring Explained | Imperva, 2022). 
+                                    </p>
+                                    <p>
+                                        As the scoring for CVSS has not been transparent and the standardisation group has not justified the use of the CVSS formula, SSVC is therefore a preferred alternative (M. Spring et al., 2021). SSVC presents a risk 
+                                        prioritisation method that may be useful to other risk management methods (M. Spring et al., 2021). 
+                                    </p>
+                                    <p>
+                                        <strong>References:</strong>
+                                        <ol>
+                                            <li>
+                                                M. Spring, J., Householder, A., Hatleback, E., Manion, A., Oliver, M., Sarvapalli, V., Tyzenhaus, L. and Yarbrough, C., 2021. [online] Resources.sei.cmu.edu. 
+                                                Available at: <https://resources.sei.cmu.edu/asset_files/WhitePaper/2021_019_001_653461.pdf > [Accessed 15 October 2022]. 
+                                            </li>
+                                            <li>
+                                                Learning Center. 2022. What is CVE and CVSS | Vulnerability Scoring Explained | Imperva. [online] Available at: <https://www.imperva.com/learn/applicationsecurity/cve-cvss-vulnerability/> [Accessed 15 October 2022]. 
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="groupWork">
+                            <h2 id="grp-work">Group Work Assessments</h2>
+                            <p>
+                                We were divided into groups by the tutor of the module to work on the assessments for this module. The assessments were conducted as a group
+								sharing the tasks between the group. In particular I was involved in sheduling the meetings and preaparing the meeting minutes of all meetings held.
+								As this was a group assessment,It is difficult for me to demonstrate my individual contribution pieces towards the assessment as we were working
+								on a single document that was created and shared on a shared OneDrive folder which I created.
+                            </p>
+                            <p>
+                                The meeting minutes we had as a group that I created at the end of every meeting held during the duration of the assessments have been consolidated
+								into one document for ease of reference. The meeting minutes can be found <a href="Documents/Module03/Meeting_Minutes.pdf">here</a>.
+                            </p>
+
+                        </div>
+                        <div id="e-portfilio_activities">
+                            <h2 id="e-portfilio-activities">E-Portfolio Activities</h2>
+                            <div id="e-portfolio_activity_01">
+                                <h3 id="gdpr">GDPR Case Studies</h3>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>Topic: </strong>
+                                                In this activity we were to read the website <a href="https://dataprotection.ie/en/pre-gdpr/case-studies">Data Protection Commission (2020) Case Studies: Data
+                                                Protection Commission</a> and provide answers to the following questions.
+                                                <ol>
+                                                    <li>What is the specific aspect of GDPR that your case study addresses?</li>
+                                                    <li>How was it resolved?</li>
+                                                    <li>If this was your organisation what steps would you take as an Information Security Manager to mitigate the issue?</li>
+                                                </ol>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                
+                                
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                From the case scenario, it was derived that personal data was stolen at the online retailer without the customers consent. This was resolved by the following:
+                                                <ol>
+                                                    <li>Contracts are now in place to ensure the appropriate technical security</li>
+                                                    <li>Conducts regular reviews of server and website</li>
+                                                    <li>Conducts annual reviuews by 3rd party experts ensuring compliance and to independently validate that the appropriate technical security and organisational measures are in place</li>
+                                                </ol>
+                                                The steps that I would have taken if this was my organisation and as an Information Secuirty Manager to mitigate this are:
+                                                <ol>
+                                                    <li> Ensure a firewall is installed and configured correctly</li>
+                                                    <li> Daily and regular backup of data</li>
+                                                    <li>Ensure the payment gateway is secured</li>
+                                                    <li>Enable 2 factor authentication on the website</li>
+                                                    <li>Ensure and review the policies are up to date with the GDPR, ISO and PCI regular standards</li>
+
+                                                </ol>
+                                        </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="e-portfolio_activity_02">
+                                <h3>Quantitative Risk Modelling</h3>
+                                
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p><strong>Part A</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Read <a href="https://www-sciencedirect-com.uniessexlib.idm.oclc.org/science/article/pii/S0925753516301795?via%3Dihub">Goerlandt et al (2017)</a>, <a href="http://sajie.journals.ac.za/pub/article/view/1821">Hugo et al (2018)</a> and <a href="https://www-tandfonline-com.uniessexlib.idm.oclc.org/doi/full/10.1080/23270012.2020.1748528">Çelikbilek & Tüysüz (2020)</a> and answer 
+                                                the following questions:
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>How do Goerlandt et al (2017) suggest that the validity of QRA approaches can be validated? What did they posit was the most effective approach?</strong>
+                                            </p>
+                                            <p>
+                                                Goerlandt et al (2017) suggests 3 approaches that the validity of QRA can be validated. These include, conceptional validity, validity in relation
+												to different scientific foundations and pragmatic validity. The authors also suggested that for establishing pragmatic validity of risk analysis, 
+												the following approaches: complete benchmark exercise, partial benchmark exercise, reality check, independent review, and quality assurance.
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>Which techniques did <a href="http://sajie.journals.ac.za/pub/article/view/1821">Hugo et al (2018)</a> should be applied to project management? What were their recommendations to increase the use of QR analysis in Projects?</strong>
+                                            </p>
+                                            <p>
+                                                After reading <a href="http://sajie.journals.ac.za/pub/article/view/1821">Hugo et al (2018)</a>, the techniques should be applied to project management are risk management tools. These techniques assist in project <br>
+												performance as the tool links the different phases during the project life cycle. There are several factors that may affect the use of the risk management<br>
+												tools, some of these factors include:
+												<ol>
+													<li>Size of project in terms of the cost, duration, and resources. </li>
+													<li>Skill level, training and experience of the project and risk management staff. </li>
+													<li>Appropriate and accurate risk models </li>
+													<li>The quality of data used </li>
+													<li>Integration of risk management with project management practice</li>
+												</ol>
+                                                Their recommendations to increase the use of QR analysis in projects include,
+												<ol>
+													<li>Have a structured interview approach with the risk personnel to understand specific issues</li>
+													<li>Perform trials with software products to understand better</li>
+													<li>Improve individuals risk management competence from training and exposure</li>
+												</ol>
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>
+                                                    The last paper reviews various Multi-criteria decision methods (MCDMs) and considered the relative accuracy and validity of the techniques. 
+                                                    Which did they find was the most accurate of the methods compared? What were the failings of the general TOPSIS approach?
+                                                </strong>
+                                            </p>
+                                            <p>
+                                                Most accurate methods,
+												<ol>
+                                                    <li>AHP</li>
+                                                </ol>
+                                            </p>
+                                            <p>
+                                                Fallings of the general TOPSIS approach include,
+												<ol>
+													<li>The rank reversal phenomenon</li>
+													<li>The ranking index </li>
+													<li>The correlation between criteria</li>
+												</ol>
+                                            </p>
+
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p><strong>Part B</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>
+                                                    Read chapter 5 of the course text (Olsen & Desheng (2020)) and implement the inventory Monte Carlo simulation. You can use Yasai 
+                                                    Eckstein & Riedmuller, 2002) to replace crystal ball. (If you have difficulty implementing the course text model, there is a simplified
+                                                    model also available).
+                                                </strong>
+                                            </p>
+                                            <p>
+                                                I attempted implementing the inventory simulation and found it challanging. As I was attempting the simulation module with the guidelines <br>
+												 from the chapter, I was unable to successfully run the simulation. I have attached my attempt on implementing the inventory simulation <a href="Documents/Module03/Inventory_Simulation_Model.pdf">here</a>.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div id="e-portfolio_activity_03">
+                                <h3>DR Solutions Design and Review</h3>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p><strong>Part A</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>Read <a href="http://eprints.bournemouth.ac.uk/22467/1/Critical%20Review%20of%20Vendor%20Lock-in%20and%20Its%20Impact%20on%20Adoption%20of%20Cloud%20Computing.pdf">Opara-Martins et al (2014)</a> and Morrow et al (2021) and answer the following questions:</strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>
+                                                    What are some of the main vendor lock-in issues the authors identify? How would you mitigate them?
+                                                </strong>
+                                            </p>
+                                            <p>
+                                                The main vendor issues the authors identify are:
+												<ol>
+													<li>Each provider develops its own specific technologies, remote APIs and some create new programming languages.</li>
+													<li>Switching between incompatible software systems can force a customer to use the same products and services</li>
+													<li>Applications are usually restricted to particular enterprises cloud or a cloud service provider. </li>
+													<li>Businesses can face a lock-in situation making it difficult for them to change the service provider in the future</li>
+
+												</ol>
+                                            </p>
+                                            <p>
+                                                How would you mitigate them?
+												<ol>
+													<li>Build portable application</li>
+													<li>Retain ownership of data</li>
+													<li>Implement a multi-cloud strategy</li>
+
+
+												</ol>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>What are some of the security concerns with the modern cloud? How can these be mitigated?</strong>
+                                            </p>
+                                            <table>
+                                                <thead>
+                                                    <th>Security Concern</th>
+                                                    <th>Mitigation</th>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            Unsecured AWS storage services leaving data accessible
+                                                        </td>
+                                                        <td>
+                                                            <ol>
+                                                                <li>Perform due diligence</li>
+                                                                <li>Manage access</li>
+                                                                <li>Protect data</li>
+                                                                <li>Monitor and defend</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Compromise emails
+                                                        </td>
+                                                        <td>
+                                                            <ol>
+                                                                <li>Manage access</li>
+                                                                <li>Monitor and defend</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Ransomware attacks
+                                                        </td>
+                                                        <td>	
+                                                            <ol>
+                                                                <li>Perform due diligence</li>
+                                                                <li>Manage access</li>
+                                                                <li>Protect data</li>
+                                                                <li>Monitor and defend</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Accidental data loss
+                                                        </td>
+                                                        <td>	
+                                                            <ol>
+                                                                 <li>Protect data</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong>Part B</strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <strong> Create a high-level diagram of a DR solution for each of the following requirements. They should be created in PowerPoint, and you should
+                                                include a basic description of each design. Be prepared to share and discuss your designs in this week’s seminar.</strong>
+										        <ol>
+											        <li>RPO= 1 hr; RTO= 8 hrs; high availability (HA) required.</li>
+											        <li>RPO= 24 hrs; RTO = 72 hrs; HA NOT required.</li>
+											        <li>RPO= 5 mins; RTO= 1 hr; HA required.</li>
+										        </ol>
+                                            </p>
+                                            <p>
+                                                At the seminar held in week 10, I presented my DR solution for RPO= 5 mins; RTO= 1 hr; HA required. The DR solutions of the above scenarios
+										        can be viewed <a href="Documents/Module03/DR_Solutions_SSJ.pdf">here</a>.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+
+                        </div>
+                        <div id="risk_modelling">
+                            <h2>Risk Modelling Activities</h2>
+                            <p>
+                                In this activity we were to work through the excercises provided on the website <a href="https://support.microsoft.com/en-us/office/introduction-to-monte-carlo-simulation-in-excel-64c0ba99-752a-4fa8-bbd3-4450d8db16f1">Introduction to Monte Carlo
+                                Simulation in Excel</a>.
+                            </p>
+
+                            <p>
+                                I worked on the excersises and my solutions to the questions can be viewed <a href="Documents/Module03/Risk_Modelling_Activities_SSJ.pdf">here</a>.
+                            </p>
+                        </div>
+
+                        <div id="future_trends">
+                            <h2>Future Trends- Group work</h2>
+                            <p>
+                                The last seminar of the module was about the future trends and as a group we were tasked to come up with a brief presentation of
+								the future trends within the next 5 years. I contributed by assisting in creating the content for the presentation. A copy of the
+								presentation can be found <a href="Documents/Module03/Seminar_06_Future_Trends.pdf">here</a>
+                            </p>
+                        </div>
+                        
+                        <div id="individualReflection">
+                            <h2>Individual Reflection</h2>
+                            <p>
+                                During the last twelve weeks, I learnt about security and risk management. This module covered various aspects about the security and risks that affect the 
+                                IT industry and possible wates of mitigating the risks.   
+                            </p>
+                            <p>
+                                In this module there were different activities that I was able to contribute in as part of a group and individually, such as the collaboration discussions, seminar activities, eportfolio 
+                                activities and being able to work in a group for the assessments. The collaboration discussion topics were interesting and in particular I found the collaborative discission about CVSS 
+                                more interesting than Industry 4.0. Prior to this module, I had only come across CVSS being a rating of a security threat. While contributing to the discussion forum, it broadened my 
+                                knowledge regarding CVSS. While reading other colleagues posts in the forum, it made me understand that CVSS is not the only scoring method and additionally there are different factors 
+                                to consider making it an unreliable source. The factors that make me feel that CVSS is an unreliable scoring criterion are (1) the CVSS formula, (2) there is no evidence that the formula 
+                                is robust, (3) the CVSS formula is not transparent about how the formula is derived and (4) the skill set of the individual scoring the vulnerability. With these factors in consideration,
+                                I think CVSS is more of a qualitative risk method instead of a quantitative risk method.  
+                            </p>
+                            <p>
+                                Working in a group for the assessment was an interesting experience as this allowed me to work with other colleagues in the course. While working on the assessments with my colleagues in 
+                                different backgrounds, help me learn from them and gain some of their knowledge. As I am currently not working in an organisation and in at my previous workplace, the organisation’s main 
+                                focus is on physical security, and I had the basic understanding of the different security threats from my bachelor’s degree. I learnt from them and would hopefully use what I learnt from 
+                                them and during the course in the coming future.  
+                            </p>
+                            <p>
+                                The assessments of the module were challenging and interesting at the same time. With an organisation working to digitalise their business and begin the digitalisation process, there are different
+                                factors to consider which was outline as part of the requirements. I found the assessment an exciting challenge ahead as to evaluate the potential security risks of the organisation may have as a 
+                                group while digitalising their business and what aspects to consider during the digitalisation, such as the importance of having business continuity and a disaster recovery plan for any possible 
+                                disruptions that may occur.   
+                            </p>
+                            <p>
+                                One of the instances while working as a group, we had a challenge in creating the analytical hierarchal process (AHP) for the assessment. As for a consistent AHP, the consistency ratio must be less
+                                than 0.1 however we were getting a consistency ratio of greater than 0.1. At this stage, we were confused whether we got the calculations wrong and after further research, according to (Business 
+                                Performance, 2019), we realised that it is okay to have the consistency ratio greater than 0.1. This meant that there could be inconsistency in the supply chain making room for areas to improve the 
+                                consistency of a supply chain.  
+                            </p>
+                            <p>
+                                As mentioned earlier, there were several tasks within this module that had individual activities. There was an individual activity regarding Monte Carlo simulation that had some exercises in excel. 
+                                During this activity, there was some confusion I had on a particular question that was slightly misleading and contacted my tutor for assistance. With the discussion I had with the tutor, I was able 
+                                to understand the scenario and clear the confusion I had, I was able to complete the activity. This can be found in the section  <a href="#risk_modelling">Risk Modelling Activities </a>
+                            </p>
+                            <p>
+                                In general, this module was very interesting and educative for me. At my previous workplace before I left the organisation, the organisation had a ransomware attack, and I was unable to mitigate 
+                                this from happening due to the lack of knowledge and expertise despite working with another colleague managing the IT infrastructure of the organisation. At the time of the ransomware attack, 
+                                there was no disaster recovery plan nor business continuity in place for such incidents apart from a data back-up that was not recent as it was about 2 months old. This module made me understand 
+                                the importance of business continuity and disaster recovery plan for any organisation. As a result, the organisation had lost its data of about 2 months and the time it took to recover from the 
+                                ransomware attack with a poor recovery point objective (RPO) and recovery time objective (RTO).  
+                            </p>
+                            <p>
+                                Reflecting back to the time the organisation had the ransomware attack after this module, I have learnt that it is important to perform regular checks on policies, ensuring all standard regulations
+                                are in place. Had I known how important business continuity and disaster recovery plan is, continuous risk analysis and performing security system checks, I would have been in a position to advise 
+                                the head of the IT department on the implementation process of a disaster recovery plan. After this module, it has not only educated me on the security risks and ways to manage them but also the 
+                                importance to educate others to create awareness on the potential security risks they may have as an organisation or as an individual. By creating awareness, this educates others who are unaware of 
+                                the risks and how they could potentially reduce the security risks that they may encounter in the future in the digital world. 
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="sidebar" style="margin-left: 15px;">
+                        <!-- Get sidebar items -->
+                        <style type="text/css" media="screen">
+                            .post-menu ul {
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            }
+                        </style>
+
+                        <div class="post-menu">
+                            <div class="post-menu-title">
+                                Table Of Content
+                            </div>
+                            <div class="post-menu-content">
+                                 <ul>
+                                    <li class="h-h2"><a href="#learning-outcomes">Learning Outcomes</a></li>
+                                    <li class="h-h2"><a href="#collaborative-discussions">Collaborative Discussion</a></li>
+                                    <li class="h-h3"><a href="#collab-discussion-1">Collaborative Discussion 01</a></li>
+                                    <li class="h-h4"><a href="#initial-post-1">Initial Post</a></li>
+                                    <li class="h-h4"><a href="#peer-response-rcvd1">Peer Responses Rcvd</a></li>
+                                    <li class="h-h4"><a href="#peer-response-given1">Peer Responses Given</a></li>
+                                    <li class="h-h4"><a href="#summary-post-1">Summary Post</a></li>
+                                    <li class="h-h3"><a href="#collab-discussion-2">Collaborative Discussion 02</a></li>
+                                    <li class="h-h4"><a href="#initial-post-2">Initial Post</a></li>
+                                    <li class="h-h4"><a href="#peer-response-rcvd2">Peer Responses Rcvd</a></li>
+                                    <li class="h-h4"><a href="#peer-response-given2">Peer Responses Given</a></li>
+                                    <li class="h-h4"><a href="#summary-post-2">Summary Post</a></li>
+                                    <li class="h-h2"><a href="#grp-work">Group Work Assessments</a></li>
+                                    <li class="h-h2"><a href="#e-portfilio_activities">E-portfolio Activities</a></li>
+                                    <li class="h-h3"><a href="#gdpr">GDPR Case Studies</a></li>
+                                    <li class="h-h3"><a href="#e-portfilio_activitiy_02">Quantitative Risk Modelling</a></li>
+                                    <li class="h-h3"><a href="#e-portfilio_activitiy_03">DR Solution Design and Review</a></li>
+                                    <li class="h-h2"><a href="#risk_modelling">Risk Modelling</a></li>
+                                    <li class="h-h2"><a href="#future_trends">Future Trends</a></li>
+                                    <li class="h-h2"><a href="#individualReflection">Individual Reflection</a></li>
+                                    
+                                 </ul>
+                            </div>
+                            
+                         </div>
+                 
+                    </section>
+            
+            </div>
+            
+        </main>
+        <footer class="site-footer h-card">
+            <data class="u-url" href="/"></data>
+            <div class="wrapper">
+                <div class="site-footer-inner">
+                    <div>
+                        Unpublished Work <span class="copyright">©</span> 2022-2024 Sahib Jabbal
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+    
+          
+                
+                    
+    
